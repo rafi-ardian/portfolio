@@ -371,9 +371,28 @@ export default function Portfolio() {
                   className="w-8 h-8 object-contain justify-center"
                 />
               </div>
+
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
-                  src="/mysql.png"
+                  src="/react.png"
+                  alt="AeroPulse Project"
+                  width={32} // Sesuaikan dengan ukuran asli gambar
+                  height={32} // Sesuaikan dengan ukuran asli gambar
+                  className="w-8 h-8 object-contain justify-center"
+                />
+              </div>
+              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                <Image
+                  src="/expo.png"
+                  alt="AeroPulse Project"
+                  width={32} // Sesuaikan dengan ukuran asli gambar
+                  height={32} // Sesuaikan dengan ukuran asli gambar
+                  className="w-8 h-8 object-contain justify-center"
+                />
+              </div>
+              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                <Image
+                  src="/kotlin.png"
                   alt="AeroPulse Project"
                   width={32} // Sesuaikan dengan ukuran asli gambar
                   height={32} // Sesuaikan dengan ukuran asli gambar
@@ -391,16 +410,7 @@ export default function Portfolio() {
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
-                  src="/react.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
-                />
-              </div>
-              <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
-                <Image
-                  src="/expo.png"
+                  src="/mysql.png"
                   alt="AeroPulse Project"
                   width={32} // Sesuaikan dengan ukuran asli gambar
                   height={32} // Sesuaikan dengan ukuran asli gambar
