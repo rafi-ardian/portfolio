@@ -327,94 +327,87 @@ export default function Portfolio() {
           <section className="bg-blue-600 rounded-xl p-6">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-mono">My Stack</h2>
-              {/* <Button variant="ghost" size="icon" className="text-white">
-                <span className="sr-only">View all tools</span>→
-              </Button> */}
             </div>
-            <div className="flex gap-4">
-              {/* {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className="w-12 h-12 bg-white rounded-xl" />
-              ))} */}
+            <div className="flex flex-wrap gap-4">
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/flutter.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="Flutter"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/bloc.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="BLoC"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/riverpod.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="Riverpod"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/getx.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="GetX"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
-
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/react.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="React"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/expo.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="Expo"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/kotlin.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="Kotlin"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/express.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="Express"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                 <Image
                   src="/mysql.png"
-                  alt="AeroPulse Project"
-                  width={32} // Sesuaikan dengan ukuran asli gambar
-                  height={32} // Sesuaikan dengan ukuran asli gambar
-                  className="w-8 h-8 object-contain justify-center"
+                  alt="MySQL"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain"
                 />
               </div>
             </div>
